@@ -5,9 +5,10 @@
   A canvas experiment by Kenneth Cachia
   http://www.kennethcachia.com
 
-  Updated code
+  Code
   ------------
-  https://github.com/kennethcachia/Shape-Shifter 
+  was: https://github.com/kennethcachia/Shape-Shifter
+  now: https://github.com/bbauska/shape-shifter
 
 */
 
