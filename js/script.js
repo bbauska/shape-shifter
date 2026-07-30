@@ -1,5 +1,4 @@
 /*
-
   Shape Shifter
   =============
   A canvas experiment by Kenneth Cachia
@@ -8,10 +7,8 @@
   Code
   ------------
   was: https://github.com/kennethcachia/Shape-Shifter
-  now: https://github.com/bbauska/shape-shifter
-
+  updates: https://github.com/bbauska/shape-shifter
 */
-
 
 var S = {
   init: function () {
