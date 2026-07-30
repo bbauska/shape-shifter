@@ -1,4 +1,4 @@
-/*
+/* ./js/scriptjs of/for shape-shifter.bauska.org
   Shape Shifter
   =============
   A canvas experiment by Kenneth Cachia
