@@ -1,11 +1,57 @@
-<!doctype html>
+<!DOCTYPE html>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ index.html of bbauska/shape-shifter for shape-shifter.bauska.org ~~~~~~~~~~~~~-->
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <!-- meta author, title, desc, keywords, viewport, robots.txt for SEO, manifest, ms validate & icon, canonical url -->
+    <meta name="author" content="Brian Bauska">
+    <meta name="title" content="Shape Shifter">
+    <meta name="description" content="Shape shifter is a 'canvas' example of type and display to your screen." />
+    <meta name="keywords" content="website,web,site,zombie,Politics,culture,casino,capitalism,capitalize,
+      political,disposability,death,America,culture,power,society,greed,avarice,excess,gluttony,selfishness,
+      MIC,Military,Industrial,Complex,corruption,Dulles,Bush,Reagan,justice,youth,democracy,psychology,
+      ideology,governance,spectacle,casinocapitalism,zombie,steak,Steak,YouTube,Sonic,sonic,SONIC,Silus,
+      Gaming,World,LuccasNeto,T-Series,SETIndia,Cocomelon,MrBeast,Beast,CE1,C-E-1,Beast,SilusGamingWorld,
+      SilusSpider,NickAR,Nick,NY,NYNick,NewYorkNick,URCristiano,UR,Cristiano,KidsDimaShow,VladandNiki,
+      LuisitoComunica,BrightSide,ZeeTV,DudePerfect,TipsOfficial,FNAF,FiveNightsatFreddies,TheMusicCompany,
+      PewDiePie, 5minutecrafts,A4,Sambucha,Sam&Colby,Sam&ColbyReacts,JuiceWorld,RayWilliamJohnson,FGTV,
+      KaicenatLive,IShowSpeed,Jelly,DanTDM,KSI,LoganPaul,JackSucksAtLife,PackGOD,JakePaul,Jake,PaulJakePaul,
+      SamGaming01,Veshreny,WWE,WorldWrestlingEntertainment,Smosh,DadsSpeed,TopperGuild,InternetAnarchist,
+      GuavaJuice,FortniteYoutubers,Sypherpk,LiveSPEEDY,AdenRoss,Preston,JohnnieJuilbert,YouTubeMovies,Sypherpk,
+      AnnoyingOrange,JackSepticeye,JackFilms,BBNo$,Unspeakable,MarkRober,TheFilmTheorist,TheGameTheorist,
+      Minecraft,TheBoys,JTMusic,DAFUQBoom!?,AIMIN,Robby,BrentTV,EYStream,Fortnite,Ninja,SunnyV2,N30N,Dream,
+      SamFrank,Technoblade,RyanTrhan,Stellar,DJCook,AnthonyMadia,AnthonyIlla,SmoshGaming,SmoshPit,SmoshCast,
+      Fred,cellardoor,BriansBlog,CellarDoor,AJWorld,Packzilla,LearnJSwithBrian,#SilusGamingWorld,Silus,Gaming,
+      World,#LearnJSwithBrian,Learn,JavaScript,with,Brian,#Silus,#Gaming,#World,minecraft,#minecraft,shape,shifter">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="robots" content="index, follow">
+    <link rel="manifest" href="manifest.json">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="canonical" href="https://shape-shifter.bauska.org">
+  
+    <!-- favicon images for apple, android and microsoft, tile color/image, theme color -->
+    <link rel="shortcut icon" type="image/jpg" href="/images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <meta name="apple-mobile-web-app-title" content="UFO Scroll Timeline">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
     <title>Shape Shifter</title>
-<!--    <link rel="stylesheet" href="./css/site.min.css"> -->
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
@@ -24,19 +70,45 @@
         <div class="tabs-labels"><span class="tabs-label">Commands</span><span class="tabs-label">Info</span><span class="tabs-label">Share</span></div>
         <div class="tabs-panels">
           <ul class="tabs-panel commands">
-            <li class="commands-item"><span class="commands-item-title">Text</span><span class="commands-item-info" data-demo="Hello :)">Type anything</span><span class="commands-item-action">Demo</span></li>
-            <li class="commands-item"><span class="commands-item-title">Countdown</span><span class="commands-item-info" data-demo="#countdown 10">#countdown<span class="commands-item-mode">number</span></span><span class="commands-item-action">Demo</span></li>
-            <li class="commands-item"><span class="commands-item-title">Icon</span><span class="commands-item-info" data-demo="#icon thumbs-up">#icon<span class="commands-item-mode">name</span>&nbsp;(using <a href="//fortawesome.github.io/Font-Awesome/#icons-new" target="_blank">Font Awesome</a>)</span><span class="commands-item-action">Demo</span></li>
-            <li class="commands-item"><span class="commands-item-title">Time</span><span class="commands-item-info" data-demo="#time">#time</span><span class="commands-item-action">Demo</span></li>
-            <li class="commands-item"><span class="commands-item-title">Rectangle</span><span class="commands-item-info" data-demo="#rectangle 30x15">#rectangle<span class="commands-item-mode">width x height</span></span><span class="commands-item-action">Demo</span></li>
-            <li class="commands-item"><span class="commands-item-title">Circle</span><span class="commands-item-info" data-demo="#circle 25">#circle<span class="commands-item-mode">diameter</span></span><span class="commands-item-action">Demo</span></li>
-            <li class="commands-item commands-item--gap"><span class="commands-item-title">Animate</span><span class="commands-item-info" data-demo="The time is|#time|#countdown 3|#icon thumbs-up"><span class="commands-item-mode">command1</span>&nbsp;|<span class="commands-item-mode">command2</span></span><span class="commands-item-action">Demo</span></li>
+            <li class="commands-item">
+              <span class="commands-item-title">Text</span><span class="commands-item-info" data-demo="Hello :)">Type anything</span><span class="commands-item-action">Demo</span>
+            </li>
+            <li class="commands-item">
+              <span class="commands-item-title">Countdown</span>
+              <span class="commands-item-info" data-demo="#countdown 10">#countdown
+              <span class="commands-item-mode">number</span></span>
+              <span class="commands-item-action">Demo</span></li>
+            <li class="commands-item"><span class="commands-item-title">Icon</span>
+              <span class="commands-item-info" data-demo="#icon thumbs-up">#icon
+              <span class="commands-item-mode">name</span>&nbsp;(using <a href="//fortawesome.github.io/Font-Awesome/#icons-new" target="_blank">Font Awesome</a>)</span>
+              <span class="commands-item-action">Demo</span>
+            </li>
+            <li class="commands-item"><span class="commands-item-title">Time</span>
+              <span class="commands-item-info" data-demo="#time">#time</span>
+              <span class="commands-item-action">Demo</span>
+            </li>
+            <li class="commands-item"><span class="commands-item-title">Rectangle</span>
+              <span class="commands-item-info" data-demo="#rectangle 30x15">#rectangle
+              <span class="commands-item-mode">width x height</span></span>
+              <span class="commands-item-action">Demo</span>
+            </li>
+            <li class="commands-item"><span class="commands-item-title">Circle</span>
+              <span class="commands-item-info" data-demo="#circle 25">#circle
+              <span class="commands-item-mode">diameter</span></span>
+              <span class="commands-item-action">Demo</span>
+            </li>
+            <li class="commands-item commands-item--gap">
+              <span class="commands-item-title">Animate</span>
+              <span class="commands-item-info" data-demo="The time is|#time|#countdown 3|#icon thumbs-up">
+              <span class="commands-item-mode">command1</span>&nbsp;|<span class="commands-item-mode">command2</span></span>
+              <span class="commands-item-action">Demo</span>
+            </li>
           </ul>
           <div class="tabs-panel ui-details">
             <div class="ui-details-content">
               <h1>Shape Shifter</h1>
               <p>
-<!--                An experiment by <a href="//www.brianbauska.org" target="_blank">Brian Bauska<a/>.<br/> -->
+<!--                An experiment by <a href="//www.kennethcachia.com" target="_blank">Kenneth Cachia<a/>.<br/> -->
                 An experiment by <a href="//www.brianbauska.org" target="_blank">Brian Bauska<a/>.<br/>
                 <a href="//fortawesome.github.io/Font-Awesome/#icons-new" target="_blank">Font Awesome</a> is being used to render all #icons.
               </p>
@@ -47,8 +119,8 @@
               <h1>Sharing</h1>
               <p>Simply add <em>?a=</em> to the current URL to share any static or animated text. Examples:</p>
               <p>
-<!-- <a href="?a=Hello">www.brianbauska.org/shape-shifter?a=Hello</a><br/> 
-  <a href="?a=Hello|#countdown 3">www.brianbauska.org/shape-shifter?a=Hello|#countdown 3</a>
+<!-- <a href="?a=Hello">www.kennethcachia.com/shape-shifter?a=Hello</a><br/> 
+  <a href="?a=Hello|#countdown 3">www.kennethcachia.com/shape-shifter?a=Hello|#countdown 3</a>
 -->
 
                 <a href="?a=Hello">www.brianbauska.org/shape-shifter?a=Hello</a><br/>
